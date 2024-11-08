@@ -35,7 +35,7 @@ class MergeSortedArray {
   }
 
   bruteForce(nums1, m, nums2, n) {
-    return nums1.splice(m-n, n, 3).concat(nums2);
+    return nums1.splice(m-n, n, m).concat(nums2);
   }
 }
 
